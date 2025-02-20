@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 用Hash表的空间换时间，性能更好
- * @see https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked
+ * <a href="https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked">两数之和</a>
+ * <p>用Hash表的空间换时间，性能更好</p>
  */
 class SolutionOne {
     public int[] twoSum(int[] nums, int target) {

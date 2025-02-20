@@ -3,8 +3,8 @@ package leetcode.top100._1_groupAnagrams;
 import java.util.*;
 
 /**
- * 排序 + 哈希
- * @see https://leetcode.cn/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-100-liked
+ * <a href="https://leetcode.cn/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-100-liked">字母异位词分组</a>
+ * <p>异位词，只有顺序不一样，先排序，再分组（key为排序后的词）</p>
  */
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
