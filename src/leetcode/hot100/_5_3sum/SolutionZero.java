@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * 三层遍历（暴力）
- * @see https://leetcode.cn/problems/3sum/description/?envType=study-plan-v2&envId=top-100-liked
+ * <a href="https://leetcode.cn/problems/3sum/description/?envType=study-plan-v2&envId=top-100-liked">三数之和</a>
+ * <p>三层遍历（暴力）</p>
  */
 class SolutionZero {
     public List<List<Integer>> threeSum(int[] nums) {
