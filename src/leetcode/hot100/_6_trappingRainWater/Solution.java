@@ -1,11 +1,11 @@
 package leetcode.hot100._6_trappingRainWater;
 
 /**
+ * <a href="https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&envId=top-100-liked">接雨水</a>
  * <p>两边的高度都要高于当前</p>
  * <p>两边高度取最低的（木桶效应）</p>
  * <p>两边可以间隔多个块（平移）</p>
  * <p>双指针</p>
- * @see https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&envId=top-100-liked
  */
 class Solution {
     public int trap(int[] height) {
