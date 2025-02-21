@@ -1,4 +1,4 @@
-package leetcode.top100._2_longestConsecutiveSequence;
+package leetcode.hot100._2_longestConsecutiveSequence;
 
 import java.util.HashSet;
 import java.util.Set;

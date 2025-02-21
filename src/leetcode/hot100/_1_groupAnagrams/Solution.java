@@ -1,4 +1,4 @@
-package leetcode.top100._1_groupAnagrams;
+package leetcode.hot100._1_groupAnagrams;
 
 import java.util.*;
 

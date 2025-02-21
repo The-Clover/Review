@@ -1,4 +1,4 @@
-package leetcode.top100._5_3sum;
+package leetcode.hot100._5_3sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

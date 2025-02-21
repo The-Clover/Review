@@ -1,4 +1,4 @@
-package leetcode.top100._8_findAllAnagramsInAString;
+package leetcode.hot100._8_findAllAnagramsInAString;
 
 import java.util.ArrayList;
 import java.util.Arrays;

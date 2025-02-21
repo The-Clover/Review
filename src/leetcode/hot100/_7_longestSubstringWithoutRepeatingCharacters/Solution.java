@@ -1,4 +1,4 @@
-package leetcode.top100._7_longestSubstringWithoutRepeatingCharacters;
+package leetcode.hot100._7_longestSubstringWithoutRepeatingCharacters;
 
 import java.util.HashSet;
 import java.util.Set;

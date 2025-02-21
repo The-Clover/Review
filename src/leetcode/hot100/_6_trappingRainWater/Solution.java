@@ -1,4 +1,4 @@
-package leetcode.top100._6_trappingRainWater;
+package leetcode.hot100._6_trappingRainWater;
 
 /**
  * <p>两边的高度都要高于当前</p>
