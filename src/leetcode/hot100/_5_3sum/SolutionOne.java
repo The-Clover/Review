@@ -1,12 +1,12 @@
-package leetcode.top100._5_3sum;
+package leetcode.hot100._5_3sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * 双指针
- * @see https://leetcode.cn/problems/3sum/description/?envType=study-plan-v2&envId=top-100-liked
+ * <a href="https://leetcode.cn/problems/3sum/description/?envType=study-plan-v2&envId=top-100-liked">三数之和</a>
+ * <p>双指针</p>
  */
 class SolutionOne {
     public List<List<Integer>> threeSum(int[] nums) {

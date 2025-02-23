@@ -1,11 +1,11 @@
-package leetcode.top100._7_longestSubstringWithoutRepeatingCharacters;
+package leetcode.hot100._7_longestSubstringWithoutRepeatingCharacters;
 
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 滑动窗口-双指针
- * @see https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/?envType=study-plan-v2&envId=top-100-liked
+ * <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/?envType=study-plan-v2&envId=top-100-liked">无重复字符的最长子串</a>
+ * <p>滑动窗口-双指针</p>
  */
 class Solution {
     public int lengthOfLongestSubstring(String s) {

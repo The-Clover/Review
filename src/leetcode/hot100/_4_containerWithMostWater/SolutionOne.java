@@ -1,10 +1,9 @@
-package leetcode.top100._4_containerWithMostWater;
+package leetcode.hot100._4_containerWithMostWater;
 
 /**
- * 双指针
- * <p>
- * height.length - 2种可能
- * @see https://leetcode.cn/problems/container-with-most-water/description/?envType=study-plan-v2&envId=top-100-liked
+ * <a href="https://leetcode.cn/problems/container-with-most-water/description/?envType=study-plan-v2&envId=top-100-liked">盛最多水的容器</a>
+ * <p>双指针</p>
+ * <p>height.length - 2种可能</p>
  */
 class SolutionOne {
     public int maxArea(int[] height) {

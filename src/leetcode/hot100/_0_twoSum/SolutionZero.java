@@ -1,4 +1,4 @@
-package leetcode.top100._0_twoSum;
+package leetcode.hot100._0_twoSum;
 
 /**
  * <a href="https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked">两数之和</a>

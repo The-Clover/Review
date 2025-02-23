@@ -1,4 +1,4 @@
-package leetcode.top100._3_moveZeroes;
+package leetcode.hot100._3_moveZeroes;
 
 /**
  * <a href="https://leetcode.cn/problems/move-zeroes?envType=study-plan-v2&envId=top-100-liked">移动零</a>

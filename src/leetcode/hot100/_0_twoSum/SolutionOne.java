@@ -1,4 +1,4 @@
-package leetcode.top100._0_twoSum;
+package leetcode.hot100._0_twoSum;
 
 import java.util.HashMap;
 import java.util.Map;

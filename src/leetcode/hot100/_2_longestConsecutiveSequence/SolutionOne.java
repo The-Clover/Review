@@ -1,4 +1,4 @@
-package leetcode.top100._2_longestConsecutiveSequence;
+package leetcode.hot100._2_longestConsecutiveSequence;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -9,27 +9,29 @@ import java.util.Set;
  * <p>2、HashSet无序，所以在拼接连续序列的时候，可能会取到重复的元素，在遍历的时候还需要再次判重</p>
  * <p>3、记录上一次的序列长度，每次断序的时候都比较更新更大的值</p>
  */
-public class SolutionTwo {
+public class SolutionOne {
     public int longestConsecutive(int[] nums) {
         if (nums.length <= 1) {
             return nums.length;
         }
 
         Set<Integer> numSet = new HashSet<>();
-        for (int num : nums) {
+        for(int num :nums) {
             numSet.add(num);
         }
 
         int maxLength = 0;
-
-        for (Integer num : numSet) {
-            // 先把下行的路堵死
-            if (!numSet.contains(num - 1)) {
-                int last = num;
-                while (numSet.contains(++last)) {
-                }
-                maxLength = Math.max(maxLength, last - num);
+        // 用额外的空间判重
+        Set<Integer> tempSet = new HashSet<>();
+        for(Integer num : numSet){
+            if (tempSet.contains(num)) {
+                continue;
             }
+            int last = num;
+            while (numSet.contains(++last)) {
+                tempSet.add(num);
+            }
+            maxLength = Math.max(maxLength, last - num);
         }
 
         return maxLength;
