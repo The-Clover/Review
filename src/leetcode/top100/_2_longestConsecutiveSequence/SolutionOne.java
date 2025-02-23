@@ -21,7 +21,7 @@ public class SolutionOne {
         }
 
         int maxLength = 0;
-
+        // 用额外的空间判重
         Set<Integer> tempSet = new HashSet<>();
         for(Integer num : numSet){
             if (tempSet.contains(num)) {
