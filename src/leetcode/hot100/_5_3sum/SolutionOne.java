@@ -16,7 +16,8 @@ class SolutionOne {
 
         int len = nums.length;
 
-        // 排序
+        // 对数组进行排序，排序后，重复的都挨着
+        // 必须要排序，不然无法避免重复
         Arrays.sort(nums);
         // 最终结果
         List<List<Integer>> res = new ArrayList<>();
