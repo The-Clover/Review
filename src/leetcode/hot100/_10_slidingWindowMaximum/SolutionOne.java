@@ -32,16 +32,19 @@ public class SolutionOne {
             // 入队当前元素
             queue.addLast(i);
 
-            // 比较当前元素index和队列中最大的元素index
-            // 如果构成的滑动窗口大于K，则剔除头部元素
-            if (queue.peek() < i - (k - 1)) {
-                // 检索并删除此列表的头部
-                queue.poll();
-            }
+            if (null != queue.peek()) {
+                // 比较队列中值最大的元素index和当前元素index
+                // 如果构成的滑动窗口大于K，则剔除头部元素
+                if (queue.peek() < i - (k - 1)) {
+                    // 检索并删除此列表的头部
+                    queue.poll();
+                }
 
-            // 当 i = k-1 时，开始更新目标值，队首存放最大值在nums的index
-            if (i - (k - 1) >= 0) {
-                res[i - (k - 1)] = nums[queue.peek()];// 检索但不删除此列表的头部
+                // 当 i = k-1 时，开始更新目标值，队首存放最大值在nums的index
+                if (i - (k - 1) >= 0) {
+                    // 检索但不删除此列表的头部
+                    res[i - (k - 1)] = nums[queue.peek()];
+                }
             }
         }
         return res;
